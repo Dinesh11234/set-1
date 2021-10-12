@@ -1,0 +1,26 @@
+Package com.dinesh;
+import java.util.Scanner;
+public class Main{
+public static void main(String args[]){  
+Scanner in = new Scanner(System.in);
+ System.out.print("Input a word: ");
+  int num=in.nextInt();
+int temp=num,n=0,s=0,d=0;
+while(temp>0){
+temp/=10;
+n++;
+}
+temp=num;
+while (temp>0){
+d=temp%10;
+s+=Math.pow(d,n);
+temp/=10;
+}
+if(s==num){
+System.out.println(num+"is a Armstrong number");
+}
+else
+System.out.println(num+"is not a Armstrong number");
+}
+}
+    
