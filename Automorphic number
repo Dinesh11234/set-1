@@ -1,0 +1,18 @@
+Package com.dinesh;
+import java.util.Scanner;
+public class Main{
+public static void main(String args[]){  
+Scanner in = new Scanner(System.in);
+ System.out.print("Input a word: ");
+  int num=in.nextInt();
+int square=num*num,s=10,n=0;
+while(num>p){
+n=square%s;
+S*=10;
+}
+if(n==num)
+System.out.println("is a automorphic number");
+else
+System.out.println("is not a automorphic number");
+}
+}
