@@ -6,9 +6,9 @@ Scanner in = new Scanner(System.in);
  System.out.print("Input a word: ");
   int num=in.nextInt();
 int square=num*num,s=10,n=0;
-while(num>p){
+while(num>n){
 n=square%s;
-S*=10;
+s*=10;
 }
 if(n==num)
 System.out.println("is a automorphic number");
