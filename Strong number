@@ -5,7 +5,7 @@ public static void main(String args[]){
 Scanner in = new Scanner(System.in);
  System.out.print("Input a word: ");
   int num=in.nextInt();
-int s=0,d=0;
+int s=0,d=0,temp=num;
 while (temp>0){
 d=temp%10;
 temp/=10;
